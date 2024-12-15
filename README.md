@@ -1,8 +1,22 @@
-# React + Vite
+Добрый день.
+Этот редактор  для решения предустановленных задач на языках JS и PHP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+запуск:
+npm i
+npm run dev
 
-Currently, two official plugins are available:
+пример решения задачи на JS :function sum(numbers) {
+    let total = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      total += numbers[i];
+    }
+    return total; 
+  }
+  return sum([1, 2, 3]);
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
+  пример решения задачи на PHP : 
+function getStringLength(string $str): int {
+  return strlen($str);
+}
+echo getStringLength("hello"); 
