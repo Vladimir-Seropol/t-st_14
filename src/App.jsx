@@ -138,7 +138,7 @@ const App = () => {
             automaticLayout: true,
             // theme: "vs-dark",
           }}
-          height="400px"
+          height="200px"
         />
         <button
           onClick={handleRunCode}

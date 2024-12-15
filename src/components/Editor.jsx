@@ -16,7 +16,7 @@ const Editor = ({ language, code, setCode }) => {
         automaticLayout: true,
         theme: "vs-dark",
       }}
-      height="400px"
+      height="200px"
     />
   );
 };
