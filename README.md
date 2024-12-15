@@ -2,7 +2,7 @@
 Этот редактор  для решения предустановленных задач на языках JS и PHP
 
 запуск:
-npm i
+npm install,
 npm run dev
 
 пример решения задачи на JS :function sum(numbers) {
