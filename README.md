@@ -20,3 +20,5 @@ function getStringLength(string $str): int {
   return strlen($str);
 }
 echo getStringLength("hello"); 
+
+Антивирусы уничтажают execute.php
