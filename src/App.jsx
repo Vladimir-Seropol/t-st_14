@@ -102,7 +102,7 @@ monaco.languages.setMonarchTokensProvider("javascript", {
 });
 
 const App = () => {
-    const [code, setCode] = useState(taskJS); // Начальное задание - JS
+    const [code, setCode] = useState(taskJS); 
     const [language, setLanguage] = useState("javascript");
     const [result, setResult] = useState({ status: "", output: "" });
   
@@ -114,9 +114,9 @@ const App = () => {
     const handleLanguageChange = (selectedLanguage) => {
       setLanguage(selectedLanguage);
       if (selectedLanguage === "javascript") {
-        setCode(taskJS); // Задание на JavaScript
+        setCode(taskJS);
       } else {
-        setCode(taskPHP); // Задание на PHP
+        setCode(taskPHP); 
       }
     };
   

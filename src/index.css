@@ -12,8 +12,20 @@ background-color: #0c2546;
   color: rgb(220, 223, 226);
 }
 
+.output{
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
 
-
+.selector{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+     align-items: center;
+      margin-bottom: 20px;
+}
 
 
 

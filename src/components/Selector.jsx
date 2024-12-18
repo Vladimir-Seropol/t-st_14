@@ -13,7 +13,7 @@ const Selector = ({ selected, onChange }) => {
   };
 
   return (
-    <div style={{display: "flex",gap: "10px",justifyContent: "flex-start", alignItems: "center", marginBottom: "20px"}}>
+    <div className="selector">
       <label htmlFor="language">Выберите язык: </label>
       <Select
         id="language"
