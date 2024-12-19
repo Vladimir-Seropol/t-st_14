@@ -124,7 +124,7 @@ const App = () => {
       <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
         <h1>Редактор кода</h1>
         <Selector selected={language} onChange={handleLanguageChange} />
-        {/* Блок для отображения задания */}
+    
       <div style={{ margin: "20px 0", background: "#f4f4f4", padding: "15px", color: "#333" }}>
         <h2 style={{ margin: "0" }}>Задание</h2>
         <pre style={{ margin: "0", whiteSpace: "pre-wrap" }}>{language === "javascript" ? taskJSX : taskPHPX}</pre>

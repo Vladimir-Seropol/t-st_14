@@ -8,14 +8,14 @@ export const executeCode = async (language, code) => {
           originalConsoleLog(...args);  
         };
   
-        // Выполнение переданного кода
+       
         const evalResult = new Function(code)(); 
   
         console.log = originalConsoleLog;  
   
         console.log('evalResult:', evalResult); 
   
-        // Проверка на корректность суммы
+       
         if (typeof evalResult === 'number') {
           return { status: "success", output: `Правильное решение! Сумма: ${evalResult}` };
         } else {
